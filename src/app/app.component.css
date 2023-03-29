@@ -1,0 +1,40 @@
+/* default colour palette: #3F3F3F, #E46A6B, #6E6E6E, #FFFFFF, #040404 */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 32px;
+    padding: 0px 5%;   
+    border-bottom: solid black 1px;
+    position: fixed;
+
+    background: rgb(228,106,107);
+    background: linear-gradient(90deg, rgba(228,106,107,1) 0%, rgba(228,106,107,1) 50%, rgba(4,4,4,1) 80%); 
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.3s;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #E46A6B;
+}
+
+section {
+    position:fixed;
+    width: 100%;
+    height: calc(100% - 32px);
+    top: 32px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
