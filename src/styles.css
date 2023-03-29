@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lexend Deca', sans-serif;
 }
 ol, ul {
     list-style: none;
@@ -47,3 +47,20 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* change scroll bar colour (broken) */
+/* ::-webkit-scrollbar-thumb:hover {
+    background-color: #E46A6B;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFFFFF;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+} */
